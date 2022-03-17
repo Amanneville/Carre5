@@ -1,0 +1,29 @@
+.textGradient {
+  background: #000000;
+  background: -webkit-radial-gradient(
+    circle farthest-corner at center center,
+    #000000 0%,
+    #0f17ff 20%,
+    #ff4ded 40%,
+    #c505ff 60%,
+    #000000 100%
+  );
+  background: -moz-radial-gradient(
+    circle farthest-corner at center center,
+    #000000 0%,
+    #0f17ff 20%,
+    #ff4ded 40%,
+    #c505ff 60%,
+    #000000 100%
+  );
+  background: radial-gradient(
+    circle farthest-corner at center center,
+    #000000 0%,
+    #0f17ff 20%,
+    #ff4ded 40%,
+    #c505ff 60%,
+    #000000 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
